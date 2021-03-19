@@ -1,0 +1,13 @@
+version: "2"
+services:
+  server:
+    container_name: perfanalytics
+    build: ./
+    ports:
+      - "80:80"
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"

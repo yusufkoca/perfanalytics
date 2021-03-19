@@ -1,0 +1,24 @@
+{
+  "name": "perfanalytics",
+  "version": "1.0.0",
+  "description": "Web app to collect and criticize web performance data",
+  "main": "index.js",
+  "dependencies": {
+    "prettier": "^2.2.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "npm run build:dashboard",
+    "build:dashboard": "cd dashboard && npm install && npm run build && cd .."
+  },
+  "author": "Yusuf Koca",
+  "license": "ISC"
+}
