@@ -1,13 +1,10 @@
 version: "2"
 services:
   server:
+    image: yufus/perfanalytics
     container_name: perfanalytics
     build: ./
     ports:
       - "80:80"
-    depends_on:
-      - mongo
-  mongo:
-    image: mongo
-    ports:
-      - "27017:27017"
+    env_file:
+      - prod.env

@@ -9,7 +9,7 @@ const connectDb = require("./src/connection");
 const Metric = require("./src/Metric.model");
 const cors = require("cors");
 
-const PORT = 80;
+const PORT = process.env.PORT || 80;
 app.use(cors());
 
 app.get("/metrics", async (req, res) => {
