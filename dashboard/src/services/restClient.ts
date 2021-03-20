@@ -1,6 +1,11 @@
 import axios from "axios";
 
-const API_URL = process.env.API_BASE_URL || `http://127.0.0.1`;
+let API_URL = "";
+
+if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
+  API_URL = `http://127.0.0.1`;
+}
+
 const apiClient = axios.create({
   baseURL: API_URL,
 });

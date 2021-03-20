@@ -8,6 +8,10 @@ jobs:
     steps:
       - checkout
       - node/install-packages
+      - run:
+          name: Running npm test
+          command: |
+            npm run test
       - setup_remote_docker:
           version: 19.03.13
       - run:
