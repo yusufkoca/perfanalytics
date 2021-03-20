@@ -4,11 +4,11 @@ Collects and visualize website performance
 
 ## Demo
 
-Dashboard -> [https://perfanalytics-trendyol.herokuapp.com/](https://perfanalytics-trendyol.herokuapp.com/)
+Dashboard -> [https://perfanalytics-webapp.herokuapp.com/](https://perfanalytics-webapp.herokuapp.com/)
 
-Demo Clients to generate data -> [https://perfanalytics-trendyol.herokuapp.com/demo](https://perfanalytics-trendyol.herokuapp.com/demo) and [https://perfanalytics-trendyol.herokuapp.com/demo2](https://perfanalytics-trendyol.herokuapp.com/demo2)
+Demo Clients to generate data -> [https://perfanalytics-webapp.herokuapp.com/demo](https://perfanalytics-webapp.herokuapp.com/demo) and [https://perfanalytics-webapp.herokuapp.com/demo2](https://perfanalytics-webapp.herokuapp.com/demo2)
 
-Client Library to include in pages -> [https://perfanalytics-trendyol.herokuapp.com/perfanalytics.js](https://perfanalytics-trendyol.herokuapp.com/perfanalytics.js)
+Client Library to include in pages -> [https://perfanalytics-webapp.herokuapp.com/perfanalytics.js](https://perfanalytics-webapp.herokuapp.com/perfanalytics.js)
 
 ## Tech Stack
 
@@ -26,7 +26,7 @@ Include script tag into your page to gather data.
 <script src="https://perfanalytics-app.herokuapp.com/perfanalytics.js"></script>
 ```
 
-Then display results at -> [https://perfanalytics-trendyol.herokuapp.com/](https://perfanalytics-trendyol.herokuapp.com/)
+Then display results at -> [https://perfanalytics-webapp.herokuapp.com/](https://perfanalytics-webapp.herokuapp.com/)
 
 ## Contributing
 
