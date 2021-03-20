@@ -20,5 +20,9 @@
     "build:dashboard": "cd dashboard && npm install && npm run build && cd .."
   },
   "author": "Yusuf Koca",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": "14.15.0",
+    "npm": "6.14.10"
+  }
 }

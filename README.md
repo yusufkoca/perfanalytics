@@ -12,7 +12,7 @@ Client Library to include in pages -> [https://perfanalytics-trendyol.herokuapp.
 
 ## Tech Stack
 
-- React and Material-UI for dashboard
+- React, Material-UI, and Chart.js for dashboard
 - Vanilla JS for client script
 - Node.js & Express for backend
 - Mongodb cloud for DB

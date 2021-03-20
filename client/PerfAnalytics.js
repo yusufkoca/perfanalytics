@@ -10,7 +10,7 @@
   document.head.appendChild(script);
   */
 
-  const API_BASE_URL = "http://localhost:80";
+  const API_BASE_URL = ""; // If hosted in the same domain
   const METRICS_ENDPOINT = "/metrics";
 
   const calculateTTFB = () => {
